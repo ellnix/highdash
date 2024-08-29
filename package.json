@@ -16,5 +16,8 @@
     "url": "https://github.com/ellnix/highdash/issues"
   },
   "homepage": "https://github.com/ellnix/highdash#readme",
-  "mode": "module"
+  "mode": "module",
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
 }
