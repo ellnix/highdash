@@ -1,0 +1,20 @@
+{
+  "name": "highdash",
+  "version": "0.0.1",
+  "description": "A simple clone of lodash for the purposes of studying",
+  "main": "src/highdash.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellnix/highdash.git"
+  },
+  "author": "Highdashers Developer Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ellnix/highdash/issues"
+  },
+  "homepage": "https://github.com/ellnix/highdash#readme",
+  "mode": "module"
+}
