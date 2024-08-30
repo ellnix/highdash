@@ -1,6 +1,14 @@
-const highdash = {}
+const highdash = {};
 
 highdash.array_map = (array, transformer) => {
-}
+  const theOutputArray = [];
 
-export default highdash
+  for (let x of array) {
+    let newValue = transformer(x);
+    theOutputArray.push(newValue);
+  }
+
+  return theOutputArray;
+};
+
+export default highdash;
