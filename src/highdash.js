@@ -11,4 +11,14 @@ highdash.array_map = (array, transformer) => {
   return theOutputArray;
 };
 
+highdash.array_take = (array, n) => {
+  let output = [];
+
+  for (let i = 0; i < n && i < array.length; i++) {
+    output.push(array[i]);
+  }
+
+  return output;
+};
+
 export default highdash;
