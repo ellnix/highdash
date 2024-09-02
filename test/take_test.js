@@ -29,12 +29,12 @@ describe("highdash.array_take", () => {
     assert.deepEqual(input_array, [1, 2, 3])
   })
 
-  it("returns whole array if n is bigger than length", () => {
+  it("returns an array padded with null if n is bigger than length", () => {
     let input_array = [1, 2, 3]
     let n = 4
 
     const result = highdash.array_take(input_array, n)
 
-    assert.deepEqual(result, [1, 2, 3])
+    assert.deepEqual(result, [1, 2, 3, null])
   })
 })
