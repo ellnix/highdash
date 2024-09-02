@@ -11,16 +11,26 @@ highdash.array_map = (array, transformer) => {
   return theOutputArray;
 };
 
+highdash.array_take = (array, n) => {
+  let output = [];
+
+  for (let i = 0; i < n && i < array.length; i++) {
+    output.push(array[i]);
+  }
+
+  return output;
+};
+
 highdash.array_filter = (array, predicate) => {
-  const output = []
+  const output = [];
 
   for (let i = 0; i < array.length; i++) {
     if (predicate(array[i])) {
-      output.push(array[i])
+      output.push(array[i]);
     }
   }
 
-  return output
-}
+  return output;
+};
 
 export default highdash;
