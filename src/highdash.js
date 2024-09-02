@@ -21,4 +21,16 @@ highdash.array_take = (array, n) => {
   return output;
 };
 
+highdash.array_filter = (array, predicate) => {
+  const output = [];
+
+  for (let i = 0; i < array.length; i++) {
+    if (predicate(array[i])) {
+      output.push(array[i]);
+    }
+  }
+
+  return output;
+};
+
 export default highdash;
