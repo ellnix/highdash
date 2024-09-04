@@ -45,6 +45,14 @@ highdash.array_some = (array, predicate) => {
 };
 
 highdash.array_find = (array, predicate) => {
-}
+  for (let i = 0; i < array.length; i++) {
+    const theResultYo = predicate(array[i]);
+    if (theResultYo == true) {
+      return array[i];
+    }
+  }
+
+  return null;
+};
 
 export default highdash;
