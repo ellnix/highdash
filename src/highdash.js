@@ -33,4 +33,7 @@ highdash.array_filter = (array, predicate) => {
   return output;
 };
 
+highdash.array_some = (array, predicate) => {
+}
+
 export default highdash;
