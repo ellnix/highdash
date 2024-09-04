@@ -44,4 +44,7 @@ highdash.array_some = (array, predicate) => {
   return false;
 };
 
+highdash.array_find = (array, predicate) => {
+}
+
 export default highdash;
