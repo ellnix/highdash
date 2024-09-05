@@ -66,6 +66,13 @@ highdash.array_sum = (array) => {
 };
 
 highdash.array_product = (array) => {
-}
+  let product = 1;
+  let i = 0;
+  while (i < array.length) {
+    product = product * array[i];
+    i += 1;
+  }
+  return product;
+};
 
 export default highdash;
