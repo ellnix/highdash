@@ -55,4 +55,7 @@ highdash.array_find = (array, predicate) => {
   return null;
 };
 
+highdash.array_sum = array => {
+}
+
 export default highdash;
