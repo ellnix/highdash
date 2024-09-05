@@ -75,4 +75,7 @@ highdash.array_product = (array) => {
   return product;
 };
 
+highdash.array_indexof = (array, needle) => {
+}
+
 export default highdash;
