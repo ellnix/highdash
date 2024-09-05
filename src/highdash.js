@@ -87,4 +87,8 @@ highdash.array_indexof = (array, needle) => {
   return -1;
 };
 
+
+highdash.array_reject = (array, predicate) => {
+}
+
 export default highdash;
