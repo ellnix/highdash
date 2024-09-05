@@ -65,4 +65,7 @@ highdash.array_sum = (array) => {
   return sum;
 };
 
+highdash.array_product = (array) => {
+}
+
 export default highdash;
