@@ -76,6 +76,15 @@ highdash.array_product = (array) => {
 };
 
 highdash.array_indexof = (array, needle) => {
-}
+  let i = 0;
+  while (i < array.length) {
+    if (needle === array[i]) {
+      return i;
+    }
+    i += 1;
+  }
+
+  return -1;
+};
 
 export default highdash;
