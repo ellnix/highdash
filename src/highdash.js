@@ -55,7 +55,14 @@ highdash.array_find = (array, predicate) => {
   return null;
 };
 
-highdash.array_sum = array => {
-}
+highdash.array_sum = (array) => {
+  let sum = 0;
+  let i = 0;
+  while (i < array.length) {
+    sum = sum + array[i];
+    i += 1;
+  }
+  return sum;
+};
 
 export default highdash;
